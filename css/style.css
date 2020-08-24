@@ -1,22 +1,19 @@
-#lottie {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    padding: 0;
-    opacity: 1;
+.contenedor-corazon {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+}
+
+.label-corazon {
+    position: absolute;
     cursor: pointer;
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    top: 37%;
+    left: 37%;
 }
 #corazon{
-    position: absolute;
-    left: 0;
-    top: 0;
     display: none;
-}
-.container{
-    height: 550px;
-    display: flex;
-    justify-content: center;
-}
-label{
-    align-self:center;
 }

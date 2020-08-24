@@ -8,7 +8,7 @@ var params = {
 
 var anim;
 var cerrar = false;
-var e = document.getElementById('lottie');
+var e = document.getElementById('corazon');
 anim = lottie.loadAnimation(params);
 e.addEventListener('click', () => {
     if (cerrar == false) {
